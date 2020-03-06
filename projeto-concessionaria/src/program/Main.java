@@ -63,6 +63,7 @@ public class Main {
 		//update the exit date of vehicle
 		System.out.println("update the exit date of: \n" + pickup.toString());
 		d.updateDateExit(pickup, sdf.parse("29/03/2020 16:00:00"));
+		System.out.println("New exit date of: \n" + pickup.toString());
 		System.out.println();
 		
 		//control the status of vehicle
